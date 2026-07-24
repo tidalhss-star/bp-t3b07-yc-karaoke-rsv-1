@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs><linearGradient id="bgt3b0" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#4a148c"/><stop offset="100%" stop-color="#0d47a1"/>
-  </linearGradient></defs>
-  <rect width="32" height="32" rx="6" fill="url(#bgt3b0)"/>
-  <polygon points="14,2 6,16 14,14 10,30 22,12 14,16" fill="rgba(74,20,140,0.9)" stroke="rgba(13,71,161,0.6)" stroke-width="2"/>
-  <text x="16" y="21" text-anchor="middle" fill="#fff" font-size="8" font-weight="700" font-family="system-ui">T3</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>염창 가라오케 예약</title>
+  <rect width="64" height="64" rx="11" fill="hsl(342 44% 33%)"/>
+  <g transform="rotate(90 32 32)"><path d="M12 44 26 24l10 12 6-8 8 16Z" fill="hsl(75 68% 64%)"/><path d="M12 44 26 24l10 12" fill="none" stroke="hsl(342 24% 96%)" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/></g>
 </svg>
