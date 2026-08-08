@@ -1,260 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/about.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/blog.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/field_note-001-1v1bfri.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/guide-002-14npso4.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/juice-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/juice-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260705-049.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260705-566.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0081.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0082.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0083.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0084.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0085.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0086.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0087.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0088.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0089.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0090.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0091.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0092.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0093.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0094.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0095.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0096.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0286.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0287.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0288.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0289.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0320.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0321.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0322.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0323.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0324.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0325.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0326.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0327.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0328.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0329.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0330.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/guide-002-14npso4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yeomchang-room-zone.mapo-room-guide.xyz/posts/normal-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
