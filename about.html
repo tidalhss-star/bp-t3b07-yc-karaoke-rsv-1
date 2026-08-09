@@ -1,190 +1,188 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <title>염창 가라오케 예약 | 정보 — 위치, 가격, 시스템</title>
-    <meta name="description" content="염창 가라오케, 여기는 다릅니다. 지루한 코스, 가짜 친절은 없다. 진짜 목청 터지는 밤을 원한다면 지금 예약해. 010-6279-0862">
-    <meta name="keywords" content="염창 가라오케, 염창 가라오케 예약, 염창 노래방, 염창 가라오케 추천, 염창 역 가라오케, 염창 가라오케 가격, 염창 가라오케 후기">
-    <link rel="canonical" href="https://yeomchang-room-zone.mapo-room-guide.xyz/about.html">
-    <meta property="og:title" content="염창 가라오케 예약 | 정보 — 위치, 가격, 시스템">
-    <meta property="og:description" content="염창 가라오케, 여기는 다릅니다. 지루한 코스, 가짜 친절은 없다. 진짜 목청 터지는 밤을 원한다면 지금 예약해. 010-6279-0862">
-    <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { font-size: 16px; scroll-behavior: smooth; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a1a; color: #f0ece4; line-height: 1.6; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>염창 가라오케 예약 | 정보 — 위치, 가격, 시스템</title>
+ <meta name="description" content="염창 가라오케, 여기는 다릅니다. 지루한 코스, 가짜 친절은 없다. 진짜 목청 터지는 밤을 원한다면 지금 예약해.">
+ <meta name="keywords" content="염창 가라오케, 염창 가라오케 예약, 염창 노래방, 염창 가라오케 추천, 염창 역 가라오케, 염창 가라오케 가격, 염창 가라오케 후기">
+ <link rel="canonical" href="https://yeomchang-room-zone.mapo-room-guide.xyz/about.html">
+ <meta property="og:title" content="염창 가라오케 예약 | 정보 — 위치, 가격, 시스템">
+ <meta property="og:description" content="염창 가라오케, 여기는 다릅니다. 지루한 코스, 가짜 친절은 없다. 진짜 목청 터지는 밤을 원한다면 지금 예약해.">
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a1a; color: #f0ece4; line-height: 1.6; }
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
-        /* 헤더 / 네비게이션 */
-        header { background: #111; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 100; }
-        .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
-        .logo a { font-size: 1.5rem; font-weight: 700; color: #f0ece4; text-decoration: none; letter-spacing: -0.02em; }
-        .logo a span { color: #e63946; }
-        nav ul { list-style: none; display: flex; gap: 32px; }
-        nav a { color: #aaa; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
-        nav a:hover { color: #f0ece4; }
-        .hamburger { display: none; background: none; border: none; color: #f0ece4; font-size: 1.5rem; cursor: pointer; }
-        .hamburger:hover { color: #e63946; }
-        .nav-toggle { display: none; }
+ /* 헤더 / 네비게이션 */
+ header { background: #111; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 100; }
+ .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
+ .logo a { font-size: 1.5rem; font-weight: 700; color: #f0ece4; text-decoration: none; letter-spacing: -0.02em; }
+ .logo a span { color: #e63946; }
+ nav ul { list-style: none; display: flex; gap: 32px; }
+ nav a { color: #aaa; text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
+ nav a:hover { color: #f0ece4; }
+ .hamburger { display: none; background: none; border: none; color: #f0ece4; font-size: 1.5rem; cursor: pointer; }
+ .hamburger:hover { color: #e63946; }
+ .nav-toggle { display: none; }
 
-        /* 히어로 */
-        .hero { padding: 120px 0 80px; text-align: center; }
-        .hero h1 { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 24px; }
-        .hero h1 span { color: #e63946; }
-        .hero p { font-size: 1.2rem; color: #aaa; max-width: 640px; margin: 0 auto 32px; }
-        .hero .cta { display: inline-block; background: #e63946; color: #fff; padding: 14px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 6px; text-decoration: none; transition: background 0.2s; }
-        .hero .cta:hover { background: #c1121f; }
+ /* 히어로 */
+ .hero { padding: 120px 0 80px; text-align: center; }
+ .hero h1 { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 24px; }
+ .hero h1 span { color: #e63946; }
+ .hero p { font-size: 1.2rem; color: #aaa; max-width: 640px; margin: 0 auto 32px; }
+ .hero .cta { display: inline-block; background: #e63946; color: #fff; padding: 14px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 6px; text-decoration: none; transition: background 0.2s; }
+ .hero .cta:hover { background: #c1121f; }
 
-        /* 섹션 공통 */
-        section { padding: 80px 0; }
-        .section-title { font-size: 2rem; font-weight: 700; margin-bottom: 48px; letter-spacing: -0.02em; }
-        .section-title span { color: #e63946; }
+ /* 섹션 공통 */
+ section { padding: 80px 0; }
+ .section-title { font-size: 2rem; font-weight: 700; margin-bottom: 48px; letter-spacing: -0.02em; }
+ .section-title span { color: #e63946; }
 
-        /* 그리드 카드 */
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
-        .card { background: #222; border-radius: 8px; padding: 32px; border: 1px solid #333; transition: border-color 0.2s; }
-        .card:hover { border-color: #e63946; }
-        .card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 12px; }
-        .card p { color: #aaa; font-size: 0.95rem; }
+ /* 그리드 카드 */
+ .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+ .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+ .card { background: #222; border-radius: 8px; padding: 32px; border: 1px solid #333; transition: border-color 0.2s; }
+ .card:hover { border-color: #e63946; }
+ .card h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 12px; }
+ .card p { color: #aaa; font-size: 0.95rem; }
 
-        /* 정보 리스트 */
-        .info-list { list-style: none; }
-        .info-list li { padding: 16px 0; border-bottom: 1px solid #333; display: flex; gap: 12px; align-items: flex-start; }
-        .info-list li strong { color: #e63946; min-width: 80px; font-weight: 600; }
-        .info-list li span { color: #ccc; }
+ /* 정보 리스트 */
+ .info-list { list-style: none; }
+ .info-list li { padding: 16px 0; border-bottom: 1px solid #333; display: flex; gap: 12px; align-items: flex-start; }
+ .info-list li strong { color: #e63946; min-width: 80px; font-weight: 600; }
+ .info-list li span { color: #ccc; }
 
-        /* FAQ */
-        .faq-item { border-bottom: 1px solid #333; padding: 20px 0; }
-        .faq-item h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; cursor: pointer; }
-        .faq-item h4:hover { color: #e63946; }
-        .faq-item p { color: #aaa; font-size: 0.95rem; }
+ /* FAQ */
+ .faq-item { border-bottom: 1px solid #333; padding: 20px 0; }
+ .faq-item h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; cursor: pointer; }
+ .faq-item h4:hover { color: #e63946; }
+ .faq-item p { color: #aaa; font-size: 0.95rem; }
 
-        /* tel-link */
-        .tel-link { color: #e63946; text-decoration: none; font-weight: 600; }
-        .tel-link:hover { text-decoration: underline; }
+ /* tel-link */
+ .tel-link { color: #e63946; text-decoration: none; font-weight: 600; }
+ .tel-link:hover { text-decoration: underline; }
 
-        /* 푸터 */
-        footer { background: #111; padding: 40px 0; text-align: center; color: #666; font-size: 0.85rem; border-top: 1px solid #333; }
+ /* 푸터 */
+ footer { background: #111; padding: 40px 0; text-align: center; color: #666; font-size: 0.85rem; border-top: 1px solid #333; }
 
-        /* 반응형 */
-        @media (max-width: 768px) {
-            .hamburger { display: block; }
-            nav ul { display: none; flex-direction: column; gap: 16px; background: #111; padding: 24px; position: absolute; top: 100%; left: 0; width: 100%; border-bottom: 1px solid #333; }
-            .nav-toggle:checked ~ nav ul { display: flex; }
-            .hero h1 { font-size: 2.2rem; }
-            .grid-2, .grid-3 { grid-template-columns: 1fr; }
-            .container { padding: 0 16px; }
-        }
-    </style>
+ /* 반응형 */
+ @media (max-width: 768px) {
+ .hamburger { display: block; }
+ nav ul { display: none; flex-direction: column; gap: 16px; background: #111; padding: 24px; position: absolute; top: 100%; left: 0; width: 100%; border-bottom: 1px solid #333; }
+ .nav-toggle:checked ~ nav ul { display: flex; }
+ .hero h1 { font-size: 2.2rem; }
+ .grid-2, .grid-3 { grid-template-columns: 1fr; }
+ .container { padding: 0 16px; }
+ }
+ </style>
   <meta property="og:url" content="https://yeomchang-room-zone.mapo-room-guide.xyz/about.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo"><a href="/"><span>●</span> 염창가라오케</a></div>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="hamburger">☰</label>
-            <nav>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/info">정보</a></li>
-                    <li><a href="/price">가격</a></li>
-                    <li><a href="/review">후기</a></li>
-                    <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container header-inner">
+ <div class="logo"><a href="/"><span>●</span> 염창가라오케</a></div>
+ <input type="checkbox" id="nav-toggle" class="nav-toggle">
+ <label for="nav-toggle" class="hamburger">☰</label>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/price">가격</a></li>
+ <li><a href="/review">후기</a></li>
+ 
+ </ul>
+ </nav>
+ </div>
+ </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>염창 가라오케, <span>진짜 정보</span></h1>
-            <p>가짜 후기, 뻔한 코스, 친절 연기 — 여긴 없다. 위치부터 시스템까지, 있는 그대로 알려준다.</p>
-            <a href="tel:01062790862" class="cta">지금 전화 예약</a>
-        </div>
-    </section>
+ <section class="hero">
+ <div class="container">
+ <h1>염창 가라오케, <span>진짜 정보</span></h1>
+ <p>가짜 후기, 뻔한 코스, 친절 연기 — 여긴 없다. 위치부터 시스템까지, 있는 그대로 알려준다.</p>
+ 
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title"><span>●</span> 기본 정보</h2>
-            <ul class="info-list">
-                <li><strong>위치</strong> <span>서울 강서구 염창동 — 염창역 도보 3분, 골목 바로 진입</span></li>
-                <li><strong>영업</strong> <span>매일 20:00 ~ 익일 06:00 (주말 전일)</span></li>
-                <li><strong>주차</strong> <span>건물 전용 주차장 10대 가능 (무료)</span></li>
-                <li><strong>연락</strong> <span><a href="tel:01062790862" class="tel-link">010-6279-0862</a> (24시간 예약 가능)</span></li>
-                <li><strong>시스템</strong> <span>무한리필 안주·음료, 최신 TJ/KY 금영 입식</span></li>
-            </ul>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2 class="section-title"><span>●</span> 기본 정보</h2>
+ <ul class="info-list">
+ <li><strong>위치</strong> <span>서울 강서구 염창동 — 염창역 도보 3분, 골목 바로 진입</span></li>
+ <li><strong>영업</strong> <span>매일 20:00 ~ 익일 06:00 (주말 전일)</span></li>
+ <li><strong>주차</strong> <span>건물 전용 주차장 10대 가능 (무료)</span></li>
+ <li><strong>연락</strong> <span> (24시간 예약 가능)</span></li>
+ <li><strong>시스템</strong> <span>무한리필 안주·음료, 최신 TJ/KY 금영 입식</span></li>
+ </ul>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title"><span>●</span> 시설 &amp; 시스템</h2>
-            <div class="grid-3">
-                <div class="card">
-                    <h3>사운드</h3>
-                    <p>JBL 프로페셔널 스피커 + 2000W 앰프. 가성비 따위 없다. 목청이 찢어질 때까지.</p>
-                </div>
-                <div class="card">
-                    <h3>룸</h3>
-                    <p>6인~20인까지. 방음 100% — 옆방 노래소리 안 들린다. 프라이빗 보장.</p>
-                </div>
-                <div class="card">
-                    <h3>안주</h3>
-                    <p>튀김, 떡볶이, 과일 — 기본이지만 양이 미친 듯. 리필 5분 컷.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2 class="section-title"><span>●</span> 시설 &amp; 시스템</h2>
+ <div class="grid-3">
+ <div class="card">
+ <h3>사운드</h3>
+ <p>JBL 프로페셔널 스피커 + 2000W 앰프. 가성비 따위 없다. 목청이 찢어질 때까지.</p>
+ </div>
+ <div class="card">
+ <h3>룸</h3>
+ <p>6인~20인까지. 방음 100% — 옆방 노래소리 안 들린다. 프라이빗 보장.</p>
+ </div>
+ <div class="card">
+ <h3>안주</h3>
+ <p>튀김, 떡볶이, 과일 — 기본이지만 양이 미친 듯. 리필 5분 컷.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title"><span>●</span> 오시는 길</h2>
-            <div class="grid-2">
-                <div class="card">
-                    <h3>대중교통</h3>
-                    <p>염창역 2번 출구에서 직진 150m → 편의점 모퉁이 우회전 → 50m 직진. 간판 빨간색.</p>
-                </div>
-                <div class="card">
-                    <h3>차량</h3>
-                    <p>올림픽대로 염창IC → 염창동 방향 → 골목 2개 지나 우측. 네비: '염창 가라오케' 검색.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2 class="section-title"><span>●</span> 오시는 길</h2>
+ <div class="grid-2">
+ <div class="card">
+ <h3>대중교통</h3>
+ <p>염창역 2번 출구에서 직진 150m → 편의점 모퉁이 우회전 → 50m 직진. 간판 빨간색.</p>
+ </div>
+ <div class="card">
+ <h3>차량</h3>
+ <p>올림픽대로 염창IC → 염창동 방향 → 골목 2개 지나 우측. 네비: '염창 가라오케' 검색.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title"><span>●</span> 자주 묻는 질문</h2>
-            <div class="faq-item">
-                <h4>예약은 꼭 해야 하나요?</h4>
-                <p>그래. 워크인 받긴 하는데 금요일 밤엔 무조건 예약 필수. 전화 한 통이면 끝.</p>
-            </div>
-            <div class="faq-item">
-                <h4>가격대가 어떻게 되나요?</h4>
-                <p>1인 3~5만 원대. 코스 따라 다름. 자세한 건 가격 페이지 보고 전화해.</p>
-            </div>
-            <div class="faq-item">
-                <h4>노래방 기계는 뭔가요?</h4>
-                <p>TJ미디어 K2 + KY 금영 2000. 듀얼. 취향 따라 선택 가능.</p>
-            </div>
-            <div class="faq-item">
-                <h4>단체로 가도 되나요?</h4>
-                <p>최대 20인 룸 있음. 회식, MT, 생일 — 다 OK. 단, 예약 시 인원 꼭 말해라.</p>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2 class="section-title"><span>●</span> 자주 묻는 질문</h2>
+ <div class="faq-item">
+ <h4>예약은 꼭 해야 하나요?</h4>
+ <p>그래. 워크인 받긴 하는데 금요일 밤엔 무조건 예약 필수. 전화 한 통이면 끝.</p>
+ </div>
+ <div class="faq-item">
+ <h4>가격대가 어떻게 되나요?</h4>
+ <p>1인 3~5만 원대. 코스 따라 다름. 자세한 건 가격 페이지 보고 전화해.</p>
+ </div>
+ <div class="faq-item">
+ <h4>노래방 기계는 뭔가요?</h4>
+ <p>TJ미디어 K2 + KY 금영 2000. 듀얼. 취향 따라 선택 가능.</p>
+ </div>
+ <div class="faq-item">
+ <h4>단체로 가도 되나요?</h4>
+ <p>최대 20인 룸 있음. 회식, MT, 생일 — 다 OK. 단, 예약 시 인원 꼭 말해라.</p>
+ </div>
+ </div>
+ </section>
 
-    <footer>
-        <div class="container">
-            <p>염창 가라오케 | 서울 강서구 염창동 | <a href="tel:01062790862" class="tel-link">010-6279-0862</a></p>
-            <p style="margin-top: 8px;">진짜 목청 터지는 밤, 여기서만 가능하다.</p>
-        </div>
-    </footer>
+ <footer>
+ <div class="container">
+ <p>염창 가라오케 | 서울 강서구 염창동 | </p>
+ <p style="margin-top: 8px;">진짜 목청 터지는 밤, 여기서만 가능하다.</p>
+ </div>
+ </footer>
 </body>
 </html>
